@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "主窗口权限；登录窗口承载远程页面，刻意不匹配任何 capability",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

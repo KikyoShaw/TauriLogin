@@ -1,0 +1,38 @@
+:root {
+  --bg: #181b20;
+  --panel: #1f242c;
+  --panel-2: #252b35;
+  --border: #2e3542;
+  --text: #d7dce4;
+  --text-dim: #8b93a1;
+  --accent: #4f8cff;
+  --accent-hover: #6b9eff;
+  --ok: #3fbf7f;
+  --warn: #e0a83a;
+  --err: #e05a5a;
+  font-family: 'Segoe UI', 'Microsoft YaHei', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
